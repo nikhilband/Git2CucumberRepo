@@ -10,6 +10,7 @@ public class LoginStepDefinition extends LoginPageObject{
 
 	LoginPageObject lpo = new LoginPageObject();
 	
+	
 	@Given("^I am a user of facebook application\\.$")
 	public void i_am_a_user_of_facebook_application() throws Throwable {
 		lpo.openURL();
